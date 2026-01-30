@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: secureship-service
+  namespace: secureship
+spec:
+  type: ClusterIP
+  selector:
+    app: secureship-api
+  ports:
+    - port: 80
+      targetPort: 8000
