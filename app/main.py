@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from config import APP_NAME, APP_VERSION, ENVIRONMENT
+from app.config import APP_NAME, APP_VERSION, ENVIRONMENT
 import random
 import time
 
